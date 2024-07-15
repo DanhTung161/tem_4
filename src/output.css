@@ -1378,6 +1378,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.hover\:border-b-4:hover {
+  border-bottom-width: 4px;
+}
+
 .hover\:border-none:hover {
   border-style: none;
 }
@@ -1385,6 +1389,11 @@ video {
 .hover\:border-b-\[\#0A9949\]:hover {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(10 153 73 / var(--tw-border-opacity));
+}
+
+.hover\:border-b-\[\#3EED8B\]:hover {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(62 237 139 / var(--tw-border-opacity));
 }
 
 .hover\:bg-white:hover {
