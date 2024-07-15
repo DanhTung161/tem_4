@@ -72,10 +72,10 @@ var swiper = new Swiper(".mySwiperDV", {
             spaceBetween: 20
         }
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    // },
     navigation: {
         nextEl: ".arrow_right",
         prevEl: ".arrow_left",

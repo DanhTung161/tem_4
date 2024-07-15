@@ -280,7 +280,7 @@
 /* Mobile: width: >= 320px  and width < 375px */
 @media only screen and (min-width: 20em) and (max-width: 22.4375em) {
     .nav_btn_button {
-        display: none;
+        display: none;      
     }
     .btn_send {
         align-items: center;
