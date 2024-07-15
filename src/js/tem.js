@@ -21,8 +21,8 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".vector_right",
-        prevEl: ".vector_left",
+        nextEl: ".arrow_right",
+        prevEl: ".arrow_left",
     },
 });
 

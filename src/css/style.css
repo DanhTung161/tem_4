@@ -71,6 +71,20 @@
     .btn_button {
     background-image: linear-gradient(180deg, #FFB469, #E57709);
     }
+    .btn_button:hover {
+        background: linear-gradient(to right, #50C577, #2DBEFC);
+    }
+    .nav_btn_button {
+        background-image: linear-gradient(180deg, #FFB469, #E57709);
+        color: #fff;
+    }
+    .nav_btn_button:hover {
+        background: linear-gradient(to right, #50C577, #2DBEFC);
+        .nav_btn_img {
+            background-color: transparent;
+        }
+    }
+
     .banner_header {
         border-top-left-radius: 400px;
         border-bottom-right-radius: 400px;
@@ -102,6 +116,18 @@
                         padding-bottom: 6px;
                         padding-left: 15px;
                         padding-right: 15px;
+                        background: linear-gradient(to bottom right, #3EED8B, #0A9949);
+                    }
+                    .btn_send:hover {
+                        background: linear-gradient(to right, #50C577, #2DBEFC);
+                        transition-property: all;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        transition-duration: 700ms;
+                        .btn_send_custom {
+                            transition-property: all;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        transition-duration: 700ms;
+                        }
                     }
                 }
             }
@@ -122,13 +148,27 @@
     width: 36px;
     height: 36px;
     margin: 4px;
-  
+    }
+    .vector_left:hover {
+        svg{
+            path{
+                fill: #6FCF97;
+            }
+            
+        }
     }
     .vector_right {     
     width: 36px;
     height: 36px;
     margin: 4px;
-
+    }
+    .vector_right:hover {
+        svg{
+            path{
+                fill: #6FCF97;
+            }
+            
+        }
     }
     .slide_b-gr {
         border-top-left-radius: 50px;
@@ -136,16 +176,62 @@
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
     }
+    .arrow1 {
+        .arrow_left:hover {
+            svg{
+                path{
+                    fill: #6FCF97;
+                }
+                
+            }
+        }
+        .arrow_right:hover {
+            svg{
+                path{
+                    fill: #6FCF97;
+                }
+                
+            }
+        }
+    }
+    .arrow {
+        .arrow_left:hover {
+            svg{
+                path{
+                    fill: #6FCF97;
+                }
+                
+            }
+        }
+        .arrow_right:hover {
+            svg{
+                path{
+                    fill: #6FCF97;
+                }
+                
+            }
+        }
+    }
+
     .arrow_left {
         width: 36px;
         height: 36px;
         margin: 4px;
+        background: linear-gradient(to right, #263b95, #07d0c9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .arrow_right {
         width: 36px;
         height: 36px;
         margin: 4px;
     }
+    .btn_signin:hover {
+        background-image: linear-gradient(180deg, #FFB469, #E57709);
+    }
+
+
+
 
     /* box_show */
     .box_des {
@@ -165,7 +251,6 @@
     /* tab_item */
     .tab-items ul li.active{
         border-bottom: 1px solid #50C577;
-
         background: linear-gradient(to right, #50C577, #2DBEFC);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -187,7 +272,7 @@
 
 /* Mobile: width: >= 320px  and width < 375px */
 @media only screen and (min-width: 20em) and (max-width: 22.4375em) {
-    .btn_button {
+    .nav_btn_button {
         display: none;
     }
     .btn_send {
