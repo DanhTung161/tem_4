@@ -736,6 +736,38 @@ video {
   right: 9.5%;
 }
 
+.top-7 {
+  top: 1.75rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.top-72 {
+  top: 18rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-\[10px\] {
+  top: 10px;
+}
+
+.top-\[-50px\] {
+  top: -50px;
+}
+
 .z-0 {
   z-index: 0;
 }
