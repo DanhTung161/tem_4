@@ -70,7 +70,7 @@
 }
 .menu > ul >li > a:hover {
     /* color: #fff; */
-    background: linear-gradient(to right, #3EED8B, #0A9949);
+    background: linear-gradient(to right, #007e37, #007e37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
@@ -86,10 +86,10 @@
         color: #fff;
     }
     .nav_btn_button:hover {
-        background-image: linear-gradient(to right, #50C577, #2DBEFC);
-        .nav_btn_img {
-            background-color: transparent;
-        }
+        background-image: linear-gradient(180deg, #ffffff, #eeeeee);
+        border: 1px solid #E57709;
+        color: #E57709;
+        box-shadow: #E57709;
     }
 
     .banner_header {
@@ -116,8 +116,12 @@
                     border-right-color: #2DBEFC;
                     padding: 7px;
                     border-radius: 9999px;
-                    width: 40%;
+                    
                     justify-content: space-between;
+                    input{
+                        width: 70%;
+                        outline: none;
+                    }
                     .btn_send {
                         padding-top: 6px;
                         padding-bottom: 6px;
@@ -227,16 +231,22 @@
         background: linear-gradient(to right, #263b95, #07d0c9);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        box-shadow: 2px 3px 8px #ccc;
     }
     .arrow_right {
         width: 36px;
         height: 36px;
         margin: 4px;
+        box-shadow: 2px 3px 8px #ccc;
     }
     .btn_signin:hover {
         background-image: linear-gradient(180deg, #FFB469, #E57709);
     }
-
+    .chongoi1:hover {
+        box-shadow: 30px 30px 50px #e5e5e5;
+        border-color: white;
+        transform: translateY(-24px);
+    }
 
 
 
@@ -341,7 +351,7 @@
                         .btn_send {
                             padding-left: 0;
                             padding-right: 5px;
-                            
+                            width: 40%;
                             .btn_send_text{
                                 font-size: 11px;
                                 font-weight: 600;
@@ -448,6 +458,11 @@
             font-size: 13px;
             
         }
+    }
+    .chongoi1:hover {
+        box-shadow: none;
+        transform: none;
+        border-color: #EBEBEB;
     }
     
     
