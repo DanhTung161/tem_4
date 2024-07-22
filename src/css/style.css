@@ -247,6 +247,13 @@
         border-color: white;
         transform: translateY(-24px);
     }
+    .mySwiperDoctor {
+        .swiper-wrapper {
+            .swiper-slide:hover {
+                box-shadow: 40px 30px 50px #e5e5e5;
+            }
+        }
+    }
 
 
 
