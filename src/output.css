@@ -854,6 +854,10 @@ video {
   height: 100%;
 }
 
+.h-\[24px\] {
+  height: 24px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -904,6 +908,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[24px\] {
+  width: 24px;
 }
 
 .max-w-\[1920px\] {
@@ -1166,6 +1174,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1240,6 +1252,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .text-center {
