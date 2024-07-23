@@ -282,14 +282,8 @@
 
     /* footer */
     /* .footer_icon {
-        background: linear-gradient(to right, #50C577, #2DBEFC);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        a {
-            svg {
-                fill: transparent;
-            }
-        }
+        background-color: transparent;
+       
     } */
      .footer_icon:hover{
         background-image: linear-gradient(180deg, #FFB469, #E57709);
@@ -428,6 +422,10 @@
     footer {
         .container {
             display: none;
+            .footer_icon {
+                background-color: transparent;
+               
+            }
         }
         .footer_mobile {
             display: block;
