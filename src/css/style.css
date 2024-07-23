@@ -281,7 +281,7 @@
     }
 
     /* footer */
-    .footer_icon {
+    /* .footer_icon {
         background: linear-gradient(to right, #50C577, #2DBEFC);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -290,14 +290,18 @@
                 fill: transparent;
             }
         }
-    }
+    } */
+     .footer_icon:hover{
+        background-image: linear-gradient(180deg, #FFB469, #E57709);
+     }
     
 
 
 /* Mobile: width: >= 320px  and width < 375px */
 @media only screen and (min-width: 20em) and (max-width: 22.4375em) {
     .nav_btn_button {
-        display: none;      
+        display: none;    
+        color: #0068c9;  
     }
     .btn_send {
         align-items: center;
